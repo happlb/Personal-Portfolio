@@ -1,4 +1,21 @@
 ﻿/* Style the tab buttons */
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.header {
+
+}
+header h1 {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    font-size: 40px;
+    font-weight: bold;
+    padding: unset;
+    margin: unset;
+    height: 75px;
+    width: 30%;
+}
+
 .tablink {
     background-color: #555;
     color: white;
@@ -6,21 +23,26 @@
     border: none;
     outline: none;
     cursor: pointer;
-    padding: 14px 16px;
     font-size: 17px;
-    width: 20%;
+    height: 75px;
+    width: 14%;
+}
+/*change mini header*/
+#miniHeader {
+    font-size: 15px;
 }
 
-    /* Change background color of buttons on hover */
-    .tablink:hover {
-        background-color: #777;
-    }
+/* Change background color of buttons on hover */
+.tablink:hover {
+    background-color: #777;
+}
 
 /* Set default styles for tab content */
 .tabcontent {
     color: white;
     display: none;
     padding: 50px;
+    height: 300px;
     text-align: center;
 }
 
@@ -46,8 +68,13 @@
 }
 
 footer {
-    background-color: #777;
-    padding: 10px;
+    background-color: #555;
+    padding: 30px;
+    font-weight: bold;
     text-align: center;
     color: white;
 }
+
+    footer a {
+        margin: 10%;
+    }
