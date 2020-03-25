@@ -8,7 +8,7 @@
     cursor: pointer;
     padding: 14px 16px;
     font-size: 17px;
-    width: 25%;
+    width: 20%;
 }
 
     /* Change background color of buttons on hover */
@@ -25,18 +25,29 @@
 }
 
 /* Style each tab content individually */
-#London {
+#Home {
     background-color: red;
 }
 
-#Paris {
+#About {
     background-color: green;
 }
 
-#Tokyo {
+#Portfolio {
     background-color: blue;
 }
 
-#Oslo {
+#Resume {
     background-color: orange;
+}
+
+#Contact {
+    background-color: pink;
+}
+
+footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
 }

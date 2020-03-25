@@ -2,31 +2,42 @@
 <html>
 <head>
     <link rel="stylesheet" href="StyleSheet.css">
+    <script type="text/javascript" src="Script.js"></script>
     <meta charset="utf-8">
-    <title>Hello World! I am a title!</title>
+    <title>Lucy Happ</title>
 </head>
-<div id="London" class="tabcontent">
-    <h1>London</h1>
-    <p>London is the capital city of England.</p>
+
+<button class="tablink" onclick="openTab('Home', this, 'red')" id="defaultOpen">Home</button>
+<button class="tablink" onclick="openTab('About', this, 'green')">About</button>
+<button class="tablink" onclick="openTab('Portfolio', this, 'blue')">Portfolio</button>
+<button class="tablink" onclick="openTab('Resume', this, 'orange')">Resume</button>
+<button class="tablink" onclick="openTab('Contact', this, 'pink')">Contact</button>
+
+<div id="Home" class="tabcontent">
+    <h1>Home</h1>
+    <p>Home page content will go here - needs to be auto loaded when first opening page</p>
 </div>
 
-<div id="Paris" class="tabcontent">
-    <h1>Paris</h1>
-    <p>Paris is the capital of France.</p>
+<div id="About" class="tabcontent">
+    <h1>About</h1>
+    <p>About page content will go here</p>
 </div>
 
-<div id="Tokyo" class="tabcontent">
-    <h1>Tokyo</h1>
-    <p>Tokyo is the capital of Japan.</p>
+<div id="Portfolio" class="tabcontent">
+    <h1>Portfolio</h1>
+    <p>Portfolio page content will go here</p>
 </div>
 
-<div id="Oslo" class="tabcontent">
-    <h1>Oslo</h1>
-    <p>Oslo is the capital of Norway.</p>
+<div id="Resume" class="tabcontent">
+    <h1>Resume</h1>
+    <p>Resume content will go here</p>
 </div>
 
-<button class="tablink" onclick="openCity('London', this, 'red')" id="defaultOpen">London</button>
-<button class="tablink" onclick="openCity('Paris', this, 'green')">Paris</button>
-<button class="tablink" onclick="openCity('Tokyo', this, 'blue')">Tokyo</button>
-<button class="tablink" onclick="openCity('Oslo', this, 'orange')">Oslo</button>
+<div id="Contact" class="tabcontent">
+    <h1>Contact</h1>
+    <p>Contact content will go here</p>
+</div>
+
+<footer> email, linkdin, github </footer>
+
 </html>
