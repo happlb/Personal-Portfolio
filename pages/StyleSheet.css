@@ -56,7 +56,7 @@ header h1 {
 
 /* Style each tab content individually */
 #Home {
-    background-color: red
+    background-color: red;
 }
 
 #About {
@@ -93,13 +93,25 @@ footer a {
 #Home h1{
      font-size: 6em;
      text-align: left;
-     margin-left: 10vh;
+     margin-left: 5vw;
      margin-top: 20vh;
 }
 
 #Home p {
     font-size: 1.5em;
     text-align: left;
-    margin-left: 10vh;
-    width: 75vh;
+    margin-left: 5vw;
+    width: 50vw;
+}
+
+#Home img {
+    width:20%;
+    padding: 0px;
+    margin-right: 10vw;
+    margin-top: 5vh;
+    float: right;
+}
+
+.clip-ellipse {
+ clip-path: ellipse(50% 50% at 50% 50%);
 }
