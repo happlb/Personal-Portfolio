@@ -1,6 +1,11 @@
 ﻿/* Style the tab buttons */
 /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
 
+/*plum = #b60d48;
+orange = #f29524;
+teal = #2b6a6c;
+gray = #404040;*/
+
 * {
     box-sizing: border-box;
     padding: unset;
@@ -12,72 +17,56 @@
 }
 
 header h1 {
-    background-color: #555;
+    background-color: #2b6a6c;
     color: white;
     float: left;
     border: none;
-    font-size: 40px;
+    font-size: 300%;
     font-weight: bold;
     padding: unset;
+    padding-left: 1vw;
+    padding-top: 0vh;
     margin: unset;
     height: 15vh;
     width: 30%;
+    border-radius: 0% 25% 0% 0%;
 }
 
 .tablink {
-    background-color: #555;
+    background-color: #2b6a6c;
     color: white;
     float: left;
     border: none;
     outline: none;
     cursor: pointer;
-    font-size: 17px;
+    font-size: 150%;
     height: 15vh;
     width: 14%;
+    border-radius: 0% 40% 0% 20%;
 }
 /*change mini header*/
 #miniHeader {
-    font-size: 15px;
+    font-size: 40%;
 }
 
 /* Change background color of buttons on hover */
 .tablink:hover {
-    background-color: #777;
+    background-color: #b60d48;
 }
 
 /* Set default styles for tab content */
 .tabcontent {
-    color: white;
+    color: #2b6a6c;
+    font-weight: bold;
     display: none;
-    padding: 50px;
     height: 90vh;
     text-align: center;
-}
-
-/* Style each tab content individually */
-#Home {
-    background-color: red;
-}
-
-#About {
-    background-color: green;
-}
-
-#Portfolio {
-    background-color: blue;
-}
-
-#Resume {
-    background-color: orange;
-}
-
-#Contact {
-    background-color: pink;
+    background-color: #f29524;
 }
 
 footer {
-    background-color: #555;
-    padding:15px;
+    background-color: #2b6a6c;
+    padding: 1%;
     font-weight: bold;
     text-align: center;
     color: white;
@@ -90,28 +79,33 @@ footer a {
 
 /*main page styling*/
 
-#Home h1{
-     font-size: 6em;
-     text-align: left;
-     margin-left: 5vw;
-     margin-top: 20vh;
+#Home h1 {
+    font-size: 6em;
+    text-align: left;
+    padding-left: 10vw;
+    padding-top: 30vh;
+    color: #b60d48;
 }
 
 #Home p {
     font-size: 1.5em;
     text-align: left;
-    margin-left: 5vw;
+    padding-left: 10vw;
     width: 50vw;
+    color: #b60d48;
 }
 
 #Home img {
-    width:20%;
-    padding: 0px;
+    width: 35vh;
     margin-right: 10vw;
-    margin-top: 5vh;
+    padding-top: 10vh;
     float: right;
+    border-radius: 0% 40% 0% 20%;
 }
 
 .clip-ellipse {
  clip-path: ellipse(50% 50% at 50% 50%);
 }
+
+
+
