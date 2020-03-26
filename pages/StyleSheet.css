@@ -1,8 +1,16 @@
 ﻿/* Style the tab buttons */
 /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+
+* {
+    box-sizing: border-box;
+    padding: unset;
+    margin: unset;
+}
+
 .header {
 
 }
+
 header h1 {
     background-color: #555;
     color: white;
@@ -12,7 +20,7 @@ header h1 {
     font-weight: bold;
     padding: unset;
     margin: unset;
-    height: 75px;
+    height: 15vh;
     width: 30%;
 }
 
@@ -24,7 +32,7 @@ header h1 {
     outline: none;
     cursor: pointer;
     font-size: 17px;
-    height: 75px;
+    height: 15vh;
     width: 14%;
 }
 /*change mini header*/
@@ -42,13 +50,13 @@ header h1 {
     color: white;
     display: none;
     padding: 50px;
-    height: 300px;
+    height: 90vh;
     text-align: center;
 }
 
 /* Style each tab content individually */
 #Home {
-    background-color: red;
+    background-color: red
 }
 
 #About {
@@ -69,12 +77,29 @@ header h1 {
 
 footer {
     background-color: #555;
-    padding: 30px;
+    padding:15px;
     font-weight: bold;
     text-align: center;
     color: white;
+    height: 10vh;
 }
 
-    footer a {
-        margin: 10%;
-    }
+footer a {
+    margin: 10%;
+}
+
+/*main page styling*/
+
+#Home h1{
+     font-size: 6em;
+     text-align: left;
+     margin-left: 10vh;
+     margin-top: 20vh;
+}
+
+#Home p {
+    font-size: 1.5em;
+    text-align: left;
+    margin-left: 10vh;
+    width: 75vh;
+}
