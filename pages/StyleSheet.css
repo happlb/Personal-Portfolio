@@ -105,6 +105,35 @@ footer {
     border-radius: 0% 40% 0% 20%;
 }
 
+
+/*about page styling*/
+
+#About h1 {
+    font-size: 10vw;
+    text-align: left;
+    padding-left: 10vw;
+    padding-top: 30vh;
+    color: #b60d48;
+}
+
+#About p {
+    font-size: 3vw;
+    text-align: left;
+    padding-left: 10vw;
+    width: 90vw;
+    color: #b60d48;
+}
+
+#About img {
+    width: 35vw;
+    max-width: 200px;
+    margin-right: 10vw;
+    padding-top: 10vh;
+    float: right;
+    border-radius: 0% 40% 0% 20%;
+}
+
+
 .clip-ellipse {
     clip-path: ellipse(50% 50% at 50% 50%);
 }
