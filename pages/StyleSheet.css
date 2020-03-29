@@ -13,7 +13,6 @@ gray = #404040;*/
 }
 
 .header {
-
 }
 
 header h1 {
@@ -21,7 +20,7 @@ header h1 {
     color: white;
     float: left;
     border: none;
-    font-size: 5vw;
+    font-size: 6vw;
     font-weight: bold;
     padding: unset;
     padding-left: 1vw;
@@ -73,9 +72,9 @@ footer {
     height: 10vh;
 }
 
-footer a {
-    margin: 10vw;
-}
+    footer a {
+        margin: 10vw;
+    }
 
 /*main page styling*/
 
@@ -104,8 +103,5 @@ footer a {
 }
 
 .clip-ellipse {
- clip-path: ellipse(50% 50% at 50% 50%);
+    clip-path: ellipse(50% 50% at 50% 50%);
 }
-
-
-
