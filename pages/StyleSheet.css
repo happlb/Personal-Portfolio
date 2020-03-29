@@ -21,7 +21,7 @@ header h1 {
     color: white;
     float: left;
     border: none;
-    font-size: 30vw;
+    font-size: 5vw;
     font-weight: bold;
     padding: unset;
     padding-left: 1vw;
@@ -46,7 +46,7 @@ header h1 {
 }
 /*change mini header*/
 #miniHeader {
-    font-size: 40vw;
+    font-size: 3vw;
 }
 
 /* Change background color of buttons on hover */
@@ -88,7 +88,7 @@ footer a {
 }
 
 #Home p {
-    font-size: 150vw;
+    font-size: 3vw;
     text-align: left;
     padding-left: 10vw;
     width: 50vw;
@@ -96,7 +96,7 @@ footer a {
 }
 
 #Home img {
-    width: 35vh;
+    width: 35vw;
     margin-right: 10vw;
     padding-top: 10vh;
     float: right;
