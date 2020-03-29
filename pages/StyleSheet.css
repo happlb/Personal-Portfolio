@@ -2,7 +2,7 @@
 /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
 
 /*plum = #b60d48;
-orange = #f29524;
+orange = #E19526;
 teal = #2b6a6c;
 gray = #404040;*/
 
@@ -62,7 +62,8 @@ header h1 {
     display: none;
     height: 90vh;
     text-align: center;
-    background-color: #f29524;
+    background-color: #2b6a6c;
+    background-image: url(background.jpg);
 }
 
 footer {
@@ -79,30 +80,44 @@ footer {
     }
 
 /*main page styling*/
+.myTextBox {
+    background-color: white;
+    position: fixed;
+    height: 65vh;
+    width: 55vw;
+    max-height: 70vh;
+    max-width: 60vw;
+    border-radius: 0% 40% 0% 20%;
+    margin-top: 20vh;
+    margin-left: 10vw;
+    float: left;
+    display: block;
+
+}
 
 #Home h1 {
     font-size: 10vw;
     text-align: left;
-    padding-left: 10vw;
-    padding-top: 30vh;
     color: #b60d48;
+    padding-left: 1vw;
 }
 
 #Home p {
     font-size: 3vw;
     text-align: left;
-    padding-left: 10vw;
-    width: 90vw;
+    width: 55vw;
+    padding-left: 1vw;
+    max-width: 80vw;
     color: #b60d48;
 }
 
 #Home img {
-    width: 35vw;
-    max-width: 200px;
+    width: 20vw;
     margin-right: 10vw;
-    padding-top: 10vh;
+    padding-top: 5vh;
     float: right;
     border-radius: 0% 40% 0% 20%;
+    display: block;
 }
 
 
@@ -128,7 +143,7 @@ footer {
     width: 35vw;
     max-width: 200px;
     margin-right: 10vw;
-    padding-top: 10vh;
+    padding-top: 13vh;
     float: right;
     border-radius: 0% 40% 0% 20%;
 }
