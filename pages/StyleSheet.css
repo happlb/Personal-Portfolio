@@ -162,4 +162,32 @@ footer {
     clip-path: ellipse(50% 50% at 50% 50%);
 }
 
+/*Portfolio page*/
+#Resume .myTextBox {
+    width: 30vw;
+}
+
+#Resume h1 {
+    font-size: 5vw;
+    text-align: left;
+    color: #b60d48;
+    padding-left: 1vw;
+}
+
+#Resume p {
+    font-size: 2vw;
+    text-align: left;
+    width: 55vw;
+    padding-left: 1vw;
+    max-width: 80vw;
+    color: #b60d48;
+}
+#Resume embed {
+    float: right;
+    height: 600px;
+    margin-right: 10vw;
+    padding-top: 5vh;
+    float: right;
+    display: block;
+}
 
