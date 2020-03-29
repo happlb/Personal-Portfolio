@@ -90,6 +90,7 @@ footer {
 
 #Home p {
     font-size: 3vw;
+    max-width: 90%;
     text-align: left;
     padding-left: 10vw;
     width: 50vw;
