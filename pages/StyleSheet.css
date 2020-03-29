@@ -20,7 +20,7 @@ header h1 {
     color: white;
     float: left;
     border: none;
-    font-size: 5vw;
+    font-size: 4vw;
     font-weight: bold;
     padding: unset;
     padding-left: 1vw;
@@ -42,12 +42,12 @@ header h1 {
     font-size: 3vw;
     height: 15vh;
     width: 14vw;
-    max-width:14%;
+    max-width: 14%;
     border-radius: 0% 40% 0% 20%;
 }
 /*change mini header*/
 #miniHeader {
-    font-size: 2vw;
+    font-size: 1.5vw;
 }
 
 /* Change background color of buttons on hover */
