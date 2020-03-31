@@ -206,7 +206,7 @@ footer {
 }
 
 #Contact p {
-    font-size: 1.5vw;
+    font-size: 2vw;
     text-align: left;
     width: 55vw;
     padding-top: unset;
@@ -221,11 +221,9 @@ footer {
     font-size: 1.5vw;
 }
 
-#Contact img {
-    width: 20vw;
+.LI-profile-badge {
     margin-right: 10vw;
-    padding-top: 5vh;
+    max-width: 20vw;
+    margin-top: 4vh;
     float: right;
-    border-radius: 0% 40% 0% 20%;
-    display: block;
 }
