@@ -75,25 +75,21 @@ footer {
 }
 
 
-    footer .myFooterBox {
-        width: 20vw;
-        height: 10vh;
-        background-color: #2b6a6c;
-        padding-left: 10vw;
-        margin: 0;
+footer .myFooterBox {
+    width: 20vw;
+    height: 10vh;
+    background-color: #2b6a6c;
+    padding-left: 10vw;
+    margin: 0;
     }
 
-    footer img {
-        height: 8vh;
-        padding-left: 1vh;
-        margin: 0;
-        padding-top: 2vh;
-    }
-
-.myLinkdinCover {
+footer img {
+    height: 7vh;
+    padding-left: 1vh;
+    margin-top: 2vh;
     background-color: white;
-    height: 8vh;
-}
+}    
+
 
 /*main page styling*/
 .myTextBox {
