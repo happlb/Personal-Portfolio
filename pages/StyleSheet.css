@@ -68,16 +68,32 @@ header h1 {
 
 footer {
     background-color: #2b6a6c;
-    padding: 1%;
     font-weight: bold;
     text-align: center;
     color: white;
     height: 10vh;
 }
 
-    footer a {
-        margin: 10vw;
+
+    footer .myFooterBox {
+        width: 20vw;
+        height: 10vh;
+        background-color: #2b6a6c;
+        padding-left: 10vw;
+        margin: 0;
     }
+
+    footer img {
+        height: 8vh;
+        padding-left: 1vh;
+        margin: 0;
+        padding-top: 2vh;
+    }
+
+.myLinkdinCover {
+    background-color: white;
+    height: 8vh;
+}
 
 /*main page styling*/
 .myTextBox {
@@ -128,7 +144,7 @@ footer {
     text-align: left;
     color: #b60d48;
     padding-left: 1vw;
-    padding-bottom:unset;
+    padding-bottom: unset;
 }
 
 #About p {
@@ -156,7 +172,7 @@ footer {
     display: block;
 }
 
-#About br{
+#About br {
     padding-top: 5vh;
 }
 
@@ -185,6 +201,7 @@ footer {
     padding-left: 1vw;
     color: #b60d48;
 }
+
 #Resume embed {
     float: right;
     width: 60vw;
@@ -206,7 +223,7 @@ footer {
 }
 
 #Contact p {
-    font-size: 2vw;
+    font-size: 3vw;
     text-align: left;
     width: 55vw;
     padding-top: unset;
