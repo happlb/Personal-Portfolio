@@ -128,12 +128,14 @@ footer {
     text-align: left;
     color: #b60d48;
     padding-left: 1vw;
+    padding-bottom:unset;
 }
 
 #About p {
-    font-size: 2vw;
+    font-size: 1.5vw;
     text-align: left;
     width: 55vw;
+    padding-top: unset;
     padding-left: 1vw;
     max-width: 80vw;
     color: #b60d48;
@@ -178,9 +180,9 @@ footer {
 #Resume p {
     font-size: 2vw;
     text-align: left;
-    width: 55vw;
+    width: 30vw;
+    max-width: 30vw;
     padding-left: 1vw;
-    max-width: 80vw;
     color: #b60d48;
 }
 #Resume embed {
