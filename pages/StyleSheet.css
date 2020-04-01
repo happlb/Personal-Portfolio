@@ -457,6 +457,13 @@ i {
         display: block;
     }
 
+    #Contact .myTextBox {
+        margin-top: 15vh;
+        margin-left: 20vw;
+        width: 90vw;
+        height: 20vh;
+    }
+
     .LI-profile-badge {
         float: left;
         margin-left: 18vw;
