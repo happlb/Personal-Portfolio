@@ -366,11 +366,29 @@ i {
 
 @media only screen and (max-width:380px) {
     /* CSS for screens that are 320 pixels or less will be put in this section */
+    header h1 {
+        height: 10vh;
+    }
+
+    .tablink {
+        height: 10vh;
+    }
+
+    footer .myFooterBox {
+        padding: unset;
+        margin: unset;
+    }
+
+    footer img {
+        padding: unset;
+        margin: unset
+    }
+
     .myTextBox {
         margin-top: 15vh;
         margin-left: 20vw;
         width: 90vw;
-        height: 20vh;
+        height: 22vh;
     }
 
     .myTextBoxP {
@@ -384,7 +402,7 @@ i {
     }
 
     #Home p {
-        font-size: 3vw;
+        font-size: 3.5vw;
     }
 
     #Home img {
@@ -408,39 +426,41 @@ i {
     }
 
     #About p {
-        font-size: 3vw;
+        font-size: 3.5vw;
     }
 
     #About ul {
         text-align: left;
         padding-left: 5vw;
-        font-size: 3vw;
+        font-size: 3.5vw;
     }
 
-    header h1 {
-        height: 10vh;
+    #Resume .myTextBox {
+        margin-top: 15vh;
+        margin-left: 5vw;
+        width: 100vw;
+        height: 35vh;
     }
 
-    .tablink {
-        height: 10vh;
+    #Resume p {
+        font-size: 3.5vw;
+        width: 100vw;
+        max-width: 50vw;
     }
 
-    footer .myFooterBox {
-        padding: unset;
-        margin: unset;
+    #Resume embed {
+        float: right;
+        width: 100vw;
+        height: 30vh;
+        margin-top: 40vh;
+        margin-left: 5vw;
+        display: block;
     }
-
-    footer img {
-        padding: unset;
-        margin: unset
-    }
-
 
     .LI-profile-badge {
         float: left;
-        margin-left: 0vw;
+        margin-left: 18vw;
         max-width: 20vw;
         margin-top: 30vh;
-        float: right;
     }
 }
