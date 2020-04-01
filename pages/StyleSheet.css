@@ -12,6 +12,15 @@ gray = #404040;*/
     margin: unset;
 }
 
+@media screen and (max-width:320px) {
+    /* CSS for screens that are 320 pixels or less will be put in this section */
+    .mytextbox {
+         width: 100%;
+         max-height: 40vh;
+    }
+    
+}
+
 a:link {
     text-decoration: none;
 }
