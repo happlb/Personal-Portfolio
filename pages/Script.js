@@ -9,6 +9,15 @@ function startTab() {
 
 }
 
+function startPortTab() {
+    document.getElementById("defaultPort").click();
+}
+
+function openTabPort(tabName, elmnt, color) {
+    openTab(tabName, elmnt, color);
+    startPortTab();
+
+}
   //opening tabs logic  
 function openTab(tabName, elmnt, color) {
     // Hide all elements with class="tabcontent" by default */
