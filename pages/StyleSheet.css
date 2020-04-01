@@ -68,7 +68,7 @@ header h1 {
 
 .myTextBoxP {
     background-color: white;
-    position: fixed;
+    Position: absolute;
     height: 65vh;
     width: 55vw;
     max-height: 70vh;
@@ -140,28 +140,28 @@ footer {
 }
 
 
-    footer .myFooterBox {
-        padding: 0vw 10vw 0vw 10vw;
-        height: 10vh;
-        background-color: #00868B;
-        margin: 0;
-    }
+footer .myFooterBox {
+     padding: 0vw 10vw 0vw 10vw;
+    height: 10vh;
+    background-color: #00868B;
+    margin: 0;
+}
 
-    footer img {
-        height: 7vh;
-        padding-left: 1vh;
-        padding-right: 1vh;
-        margin-top: 1.5vh;
-        background-color: white;
-        border-radius: 5% 5% 5% 5%;
-    }
+footer img {
+    height: 7vh;
+    padding-left: 1vh;
+    padding-right: 1vh;
+    margin-top: 1.5vh;
+    background-color: white;
+    border-radius: 5% 5% 5% 5%;
+}
 
 
 
 /*main page styling*/
 .myTextBox {
     background-color: white;
-    position: fixed;
+    Position: absolute;
     height: 65vh;
     width: 55vw;
     max-height: 70vh;
@@ -388,7 +388,7 @@ i {
         margin-top: 15vh;
         margin-left: 20vw;
         width: 90vw;
-        height: 22vh;
+        height: 25vh;
     }
 
     .myTextBoxP {
@@ -408,8 +408,8 @@ i {
     #Home img {
         margin: unset;
         float: left;
-        padding-left: 27vw;
-        padding-top: 30vh;
+        padding-left: 30vw;
+        padding-top: 35vh;
         height: 60vh;
         width: auto;
         border-radius: 0% 40% 0% 20%;
@@ -418,8 +418,8 @@ i {
     #About img {
         margin: unset;
         float: left;
-        padding-left: 27vw;
-        padding-top: 30vh;
+        padding-left: 30vw;
+        padding-top: 35vh;
         height: 60vh;
         width: auto;
         border-radius: 0% 40% 0% 20%;
