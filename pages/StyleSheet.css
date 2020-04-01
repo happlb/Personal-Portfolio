@@ -37,38 +37,46 @@ header h1 {
 }
 
 .tab {
-    float: left;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
-    width: 30%;
-    height: 300px;
-}
-
-.tabbutton {
-  display: block;
-  background-color: inherit;
-  color: black;
-  padding: 22px 16px;
-  width: 100%;
-  border: none;
-  outline: none;
-  text-align: left;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
- .tablinkP {
-    background-color: #2b6a6c;
+    padding: unset;
+    margin: unset;
     color: white;
     float: left;
+    background-color: #b60d48;
+    width: 30vw;
+    max-width: 30%;
+    height: 75vh;
+}
+
+.tablinksP {
+    display: block;
+    color: white;
+    width: 100%;
     border: none;
     outline: none;
+    margin-top: 7vh;
+    margin-left: 5vw;
+    text-align: center;
     cursor: pointer;
-    font-size: 3vw;
     height: 15vh;
-    width: 14vw;
-    max-width: 14%;
+    background-color: #2b6a6c;
+    font-size: 2vw;
+    width: 20vw;
     border-radius: 0% 40% 0% 20%;
+}
+
+.myTextBoxP {
+    background-color: white;
+    position: fixed;
+    height: 65vh;
+    width: 55vw;
+    max-height: 70vh;
+    max-width: 60vw;
+    border-radius: 0% 40% 0% 20%;
+    margin-top: 20vh;
+    margin-left: 35vw;
+    float: left;
+    display: block;
+    list-style-type: disc;
 }
 
 
@@ -89,6 +97,10 @@ header h1 {
 
 /* Change background color of buttons on hover */
 .tablink:hover {
+    background-color: #b60d48;
+}
+
+.tablinksP:hover {
     background-color: #b60d48;
 }
 
@@ -126,22 +138,21 @@ footer {
 }
 
 
-footer .myFooterBox {
-    padding: 0vw 5vw 0vw 5vw;
-    height: 10vh;
-    background-color: #2b6a6c;
-    padding-left: 10vw;
-    margin: 0;
+    footer .myFooterBox {
+        padding: 0vw 10vw 0vw 10vw;
+        height: 10vh;
+        background-color: #2b6a6c;
+        margin: 0;
     }
 
-footer img {
-    height: 7vh;
-    padding-left: 1vh;
-    padding-right: 1vh;
-    margin-top: 1.5vh;
-    background-color: white;
-    border-radius: 5% 5% 5% 5%;
-}
+    footer img {
+        height: 7vh;
+        padding-left: 1vh;
+        padding-right: 1vh;
+        margin-top: 1.5vh;
+        background-color: white;
+        border-radius: 5% 5% 5% 5%;
+    }
 
 
 
@@ -184,7 +195,7 @@ footer img {
     float: right;
     border-radius: 0% 40% 0% 20%;
     display: block;
-    max-height:70vh;
+    max-height: 70vh;
 }
 
 /*main page styling*/
@@ -363,4 +374,3 @@ i {
     margin-top: 4vh;
     float: right;
 }
-

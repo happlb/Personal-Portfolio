@@ -15,11 +15,11 @@
             Lucy Happ
             <div id="miniHeader">Computer Engineer to UX designer</div>
         </h1>
-        <button class="tablink" onclick="openTab('Home', this, '#E19526')" id="defaultOpen">Home</button>
-        <button class="tablink" onclick="openTab('About', this, '#E19526')">About</button>
-        <button class="tablink" onclick="openTab('Portfolio', this, '#E19526')">Portfolio</button>
-        <button class="tablink" onclick="openTab('Resume', this, '#E19526')">Resume</button>
-        <button class="tablink" onclick="openTab('Contact', this, '#E19526')">Contact</button>
+        <button class="tablink" onclick="openTab('Home', this, 'Black')" id="defaultOpen">Home</button>
+        <button class="tablink" onclick="openTab('About', this, 'Black')">About</button>
+        <button class="tablink" onclick="openTab('Portfolio', this, 'Black')">Portfolio</button>
+        <button class="tablink" onclick="openTab('Resume', this, 'Black')">Resume</button>
+        <button class="tablink" onclick="openTab('Contact', this, 'Black')">Contact</button>
     </header>
 
     <div id="Home" class="tabcontent">
@@ -63,27 +63,32 @@
 
     <div id="Portfolio" class="tabcontent">
         <div class="tab">
-            <button class="tablinksP" onclick="openCity(event, 'London')">London</button>
-            <button class="tablinksP" onclick="openCity(event, 'Paris')">Paris</button>
-            <button class="tablinksP" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+            <button class="tablinksP" onclick="openPTab( 'Portfolio',this, 'Black')" id="defaultOpen">Personal Portfolio</button>
+            <button class="tablinksP" onclick="openPTab( 'Antenna',this,'Black')">Digital Antenna</button>
+            <button class="tablinksP" onclick="openPTab( 'Zen',this,'Black')">CSS Zen Garden CSS</button>
         </div>
 
-        <div id="London" class="tabcontentP">
-            <h3>London</h3>
-            <p>London is the capital city of England.</p>
+        <div id="Portfolio" class="tabcontentP">
+            <div class="myTextBoxP">
+                <h1>Personal Portfolio</h1>
+                <p>Design process for this website - upcoming</p>
+            </div>
         </div>
 
-        <div id="Paris" class="tabcontentP">
-            <h3>Paris</h3>
-            <p>Paris is the capital of France.</p>
+        <div id="Antenna" class="tabcontentP">
+            <div class="myTextBoxP">
+                <h1>Digital Antenna</h1>
+                <p>Digital Antenna project - upcoming</p>
+            </div>
         </div>
 
-        <div id="Tokyo" class="tabcontentP">
-            <h3>Tokyo</h3>
-            <p>Tokyo is the capital of Japan.</p>
+        <div id="Zen" class="tabcontentP">
+            <div class="myTextBoxP">
+                <h1>CSS Zen Garden</h1>
+                <p>CSS Zen Garden Project - upcoming</p>
+            </div>
         </div>
     </div>
-    
 
         <div id="Resume" class="tabcontent">
             <div class="myTextBox">

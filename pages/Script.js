@@ -53,23 +53,23 @@ window.addEventListener('resize', () => {
 
 
 /*portfolio tab functionality*/
-function openCity(evt, cityName) {
-    // Declare all variables
+function openPTab(tabName, elmnt, color) {
+    // Hide all elements with class="tabcontent" by default */
     var i, tabcontentP, tablinksP;
-
-    // Get all elements with class="tabcontent" and hide them
     tabcontentP = document.getElementsByClassName("tabcontentP");
     for (i = 0; i < tabcontentP.length; i++) {
         tabcontentP[i].style.display = "none";
     }
 
-    // Get all elements with class="tablinks" and remove the class "active"
+    // Remove the background color of all tablinks/buttons
     tablinksP = document.getElementsByClassName("tablinksP");
     for (i = 0; i < tablinksP.length; i++) {
-        tablinksP[i].className = tablinksP[i].className.replace(" active", "");
+        tablinksP[i].style.backgroundColor = "";
     }
 
-    // Show the current tab, and add an "active" class to the link that opened the tab
-    document.getElementById(cityName).style.display = "block";
-    evt.currentTarget.className += " active";
+    // Show the specific tab content
+    document.getElementById(tabName).style.display = "block";
+
+    // Add the specific color to the button used to open the tab content
+    elmnt.style.backgroundColor = color;
 }
