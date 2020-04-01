@@ -97,11 +97,11 @@ header h1 {
 
 /* Change background color of buttons on hover */
 .tablink:hover {
-    background-color: #b60d48;
+    background-color: #E19526;
 }
 
 .tablinksP:hover {
-    background-color: #b60d48;
+    background-color: #E19526;
 }
 
 /* Set default styles for tab content */
@@ -215,14 +215,14 @@ footer {
 }
 
 #Portfolio h1 {
-    font-size: 10vw;
+    font-size: 5vw;
     text-align: left;
     color: #b60d48;
     padding-left: 1vw;
 }
 
 #Portfolio p {
-    font-size: 3vw;
+    font-size: 2vw;
     text-align: left;
     width: 55vw;
     padding-left: 1vw;
