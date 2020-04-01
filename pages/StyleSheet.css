@@ -2,8 +2,8 @@
 /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
 
 /*plum = #b60d48;
-orange = #E19526;
-teal = #2b6a6c;
+orange = #E19526; #F5BD1F
+teal = #2b6a6c; #00868B-new
 gray = #404040;*/
 
 * {
@@ -20,7 +20,7 @@ a:link {
 }
 
 header h1 {
-    background-color: #2b6a6c;
+    background-color: #00868B;
     color: white;
     float: left;
     border: none;
@@ -58,7 +58,7 @@ header h1 {
     text-align: center;
     cursor: pointer;
     height: 15vh;
-    background-color: #2b6a6c;
+    background-color: #00868B;
     font-size: 2vw;
     width: 20vw;
     border-radius: 0% 40% 0% 20%;
@@ -81,12 +81,12 @@ header h1 {
 
 
 .tabcontentP {
-    color: #2b6a6c;
+    color: #00868B;
     font-weight: bold;
     display: none;
     height: 90vh;
     text-align: center;
-    background-color: #2b6a6c;
+    background-color: #00868B;
     background-image: url(background.jpg);
 }
 
@@ -97,26 +97,26 @@ header h1 {
 
 /* Change background color of buttons on hover */
 .tablink:hover {
-    background-color: #E19526;
+    background-color: #e1aa12;
 }
 
 .tablinksP:hover {
-    background-color: #E19526;
+    background-color: #e1aa12;
 }
 
 /* Set default styles for tab content */
 .tabcontent {
-    color: #2b6a6c;
+    color: #00868B;
     font-weight: bold;
     display: none;
     height: 90vh;
     text-align: center;
-    background-color: #2b6a6c;
+    background-color: #00868B;
     background-image: url(background.jpg);
 }
 
 .tablink {
-    background-color: #2b6a6c;
+    background-color: #00868B;
     color: white;
     float: left;
     border: none;
@@ -130,7 +130,7 @@ header h1 {
 }
 
 footer {
-    background-color: #2b6a6c;
+    background-color: #00868B;
     font-weight: bold;
     text-align: center;
     color: white;
@@ -141,7 +141,7 @@ footer {
     footer .myFooterBox {
         padding: 0vw 10vw 0vw 10vw;
         height: 10vh;
-        background-color: #2b6a6c;
+        background-color: #00868B;
         margin: 0;
     }
 
