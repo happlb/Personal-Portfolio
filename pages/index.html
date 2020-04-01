@@ -62,56 +62,72 @@
     </div>
 
     <div id="Portfolio" class="tabcontent">
-        <div class="myTextBox">
-            <h1>Portfolio</h1>
-            <p>
-                Portfolio stuff will go here
-            </p>
+        <div class="tab">
+            <button class="tablinksP" onclick="openCity(event, 'London')">London</button>
+            <button class="tablinksP" onclick="openCity(event, 'Paris')">Paris</button>
+            <button class="tablinksP" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+        </div>
+
+        <div id="London" class="tabcontentP">
+            <h3>London</h3>
+            <p>London is the capital city of England.</p>
+        </div>
+
+        <div id="Paris" class="tabcontentP">
+            <h3>Paris</h3>
+            <p>Paris is the capital of France.</p>
+        </div>
+
+        <div id="Tokyo" class="tabcontentP">
+            <h3>Tokyo</h3>
+            <p>Tokyo is the capital of Japan.</p>
         </div>
     </div>
+    
 
-    <div id="Resume" class="tabcontent">
-        <div class="myTextBox">
-            <h1>Resume</h1>
-            <p>
-                I am a recent graduate of the Milwaukee School of Engineering Bachelor of Science, with a major in Computer Engineering and a math minor.
-                I took my first User Experience (UX) class my last quarter at MSOE and enjoyed the course work immensely.
-                Since graduation I have started a personal project of designing a personal portfolio website using  CSS, HTML, and JavaScript and tools
-                such as git and Visual Studio.
-            </p>
+        <div id="Resume" class="tabcontent">
+            <div class="myTextBox">
+                <h1>Resume</h1>
+                <p>
+                    I am a recent graduate of the Milwaukee School of Engineering Bachelor of Science, with a major in Computer Engineering and a math minor.
+                    I took my first User Experience (UX) class my last quarter at MSOE and enjoyed the course work immensely.
+                    Since graduation I have started a personal project of designing a personal portfolio website using  CSS, HTML, and JavaScript and tools
+                    such as git and Visual Studio.
+                </p>
+            </div>
+            <div>
+                <embed src="3-29-20 Lucy resume.docx.pdf" type="application/pdf" />
+            </div>
         </div>
-        <div>
-            <embed src="3-29-20 Lucy resume.docx.pdf" type="application/pdf" />
+
+        <div id="Contact" class="tabcontent">
+            <div class="myTextBox">
+                <h1>Say Hi, </h1>
+                <p>
+                    Email: happlb@msoe.edu
+                    <br>Phone: 1(262)215-8553
+                </p>
+
+            </div>
+            <div class="LI-profile-badge" data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="lucy-happ-647684153"><a class="LI-simple-link" href='https://www.linkedin.com/in/lucy-happ-647684153?trk=profile-badge'>Lucy Happ</a></div>
         </div>
-    </div>
 
-    <div id="Contact" class="tabcontent">
-        <div class="myTextBox">
-            <h1>Say Hi, </h1>
-            <p>Email: happlb@msoe.edu 
-            <br>Phone: 1(262)215-8553
-            </p>
-
-        </div>
-        <div class="LI-profile-badge" data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="lucy-happ-647684153"><a class="LI-simple-link" href='https://www.linkedin.com/in/lucy-happ-647684153?trk=profile-badge'>Lucy Happ</a></div>
-    </div>
-
-    <footer>
-        <span class= "myFooterBox">
-            <a href="mailto:happlb@msoe.edu?Subject=Personal%20Webpage" target="_top">
-                <img src="Outlook-email.png" alt="Outlook Email">
-            </a>
-        </span>
-        <span class="myFooterBox">
-            <a href="https://www.linkedin.com/in/lucy-happ-647684153" target="_blank">
-            <img src="LI-Logo.png" alt="Linkdin">
-            </a>
-        </span>
-        <span id ="githubLink" class="myFooterBox">
-            <a href="https://github.com/happlb/Personal-Portfolio.git" target="_blank">
-            <img src="GitHub-Mark-64px.png" alt="Github" />
-            </a>
-        </span>
-    </footer>
+        <footer>
+            <span class="myFooterBox">
+                <a href="mailto:happlb@msoe.edu?Subject=Personal%20Webpage" target="_top">
+                    <img src="Outlook-email.png" alt="Outlook Email">
+                </a>
+            </span>
+            <span class="myFooterBox">
+                <a href="https://www.linkedin.com/in/lucy-happ-647684153" target="_blank">
+                    <img src="LI-Logo.png" alt="Linkdin">
+                </a>
+            </span>
+            <span id="githubLink" class="myFooterBox">
+                <a href="https://github.com/happlb/Personal-Portfolio.git" target="_blank">
+                    <img src="GitHub-Mark-64px.png" alt="Github" />
+                </a>
+            </span>
+        </footer>
 </body>
 </html>
