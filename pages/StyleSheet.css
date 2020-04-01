@@ -201,20 +201,7 @@ footer {
 }
 
 /*main page styling*/
-.myTextBox {
-    background-color: white;
-    position: fixed;
-    height: 65vh;
-    width: 55vw;
-    max-height: 70vh;
-    max-width: 60vw;
-    border-radius: 0% 40% 0% 20%;
-    margin-top: 20vh;
-    margin-left: 10vw;
-    float: left;
-    display: block;
-    list-style-type: disc;
-}
+
 
 #Portfolio h1 {
     font-size: 5vw;
@@ -377,12 +364,47 @@ i {
     float: right;
 }
 
-
 @media only screen and (max-width:380px) {
     /* CSS for screens that are 320 pixels or less will be put in this section */
-    .mytextbox {
-        width: 100vw;
-        max-height: 40vh;
+    .myTextBox {
+        margin-top: 15vh;
+        margin-left: 20vw;
+        width: 90vw;
+        height: 20vh;
+    }
+
+    .myTextBoxP {
+        margin-top: 15vh;
+        width: 90vw;
+        height: 60vh;
+    }
+
+    .tab {
+        height: 80vh;
+    }
+
+    #Home p {
+        font-size: 3vw;
+    }
+
+    #Home img {
+        margin: unset;
+        float: left;
+        padding-left: 20vw;
+        padding-top: 30vh;
+        height: 70vh;
+        width: auto;
+        border-radius: 0% 40% 0% 20%;
+    }
+
+    #About img {
+        margin: unset;
+        float: left;
+        padding-left: 20vw;
+        padding-top: 30vh;
+        height: 70vh;
+        width: auto;
+        border-radius: 0% 40% 0% 20%;
     }
 
     header h1 {
@@ -401,5 +423,13 @@ i {
     footer img {
         padding: unset;
         margin: unset
+    }
+
+    .LI-profile-badge {
+        float: left;
+        margin-left: 0vw;
+        max-width: 20vw;
+        margin-top: 30vh;
+        float: right;
     }
 }
