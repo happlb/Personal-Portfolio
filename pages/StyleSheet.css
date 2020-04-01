@@ -390,9 +390,9 @@ i {
     #Home img {
         margin: unset;
         float: left;
-        padding-left: 20vw;
+        padding-left: 27vw;
         padding-top: 30vh;
-        height: 70vh;
+        height: 60vh;
         width: auto;
         border-radius: 0% 40% 0% 20%;
     }
@@ -400,11 +400,21 @@ i {
     #About img {
         margin: unset;
         float: left;
-        padding-left: 20vw;
+        padding-left: 27vw;
         padding-top: 30vh;
-        height: 70vh;
+        height: 60vh;
         width: auto;
         border-radius: 0% 40% 0% 20%;
+    }
+
+    #About p {
+        font-size: 3vw;
+    }
+
+    #About ul {
+        text-align: left;
+        padding-left: 5vw;
+        font-size: 3vw;
     }
 
     header h1 {
@@ -424,6 +434,7 @@ i {
         padding: unset;
         margin: unset
     }
+
 
     .LI-profile-badge {
         float: left;
