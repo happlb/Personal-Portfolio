@@ -14,7 +14,7 @@ gray = #404040;*/
 
 
 
-a:link {
+#footer link {
     text-decoration: none;
 }
 
@@ -39,6 +39,7 @@ header h1 {
 }
 
 .tab {
+    overflow: auto;
     padding: unset;
     margin: unset;
     color: white;
@@ -220,13 +221,11 @@ footer img {
 }
 
 #Portfolio img {
-    width: 20vw;
     margin-right: 10vw;
     padding-top: 5vh;
     float: right;
-    border-radius: 0% 40% 0% 20%;
     display: block;
-    max-height: 70vh;
+    max-height: 20vh;
 }
 
 i {
